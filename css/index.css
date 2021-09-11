@@ -88,12 +88,4 @@
     overflow-y: auto;
   }
 
-  .disp {
-    font-size: 200px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    transform: translate3d(2px, -369px, 0px);
-  }
+
