@@ -77,15 +77,12 @@
   }
 
   h1 {
-    font-size: 200px;
+    font-size: 12.5vw;
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    overflow-y: auto;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
-    overflow-y: auto;
+    font-weight:1;
   }
 
 

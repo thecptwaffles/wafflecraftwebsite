@@ -1,9 +1,10 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 100px;
+    font-size: 12.5vw;
     text-align: center;
     color: white;
     text-decoration: underline;
+    font-weight: 1;
 }
 
 .all {
@@ -16,7 +17,7 @@ h1 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
     color: white;
 }
@@ -25,7 +26,7 @@ p {
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: white;
     text-align: right;
 }
@@ -40,10 +41,10 @@ p {
   /* Links inside the navbar */
   .dropa {
     float: left;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     text-decoration: none;
     overflow-y: auto;
   }
@@ -56,15 +57,15 @@ p {
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 50px;
+    font-size: 3.125rem;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    line-height: 10px;
+    line-height: 0.625rem;
   }
   
   /* Add a red background color to navbar links on hover */

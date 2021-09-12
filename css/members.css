@@ -1,6 +1,6 @@
 #title {
     text-align: center;
-    font-size: 100px;
+    font-size: 12.5vw;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
     color: white;
@@ -19,29 +19,14 @@
 #ol {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-}
-
-.button {
-    border-width: 5px;
-    border-color: gray;
-    background-color: black;
-    border-style: solid;
-    margin: auto;
-    display: grid;
+    font-size: 3.125vw;
 }
 
 .li {
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125vw;
     color: white;
-}
-
-.font {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
+    list-style: none;
 }
 
  /* Navbar container */

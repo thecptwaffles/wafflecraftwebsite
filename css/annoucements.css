@@ -2,7 +2,7 @@
 
 .title {
     text-align: center;
-    font-size: 100px;
+    font-size: 6.25vw;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
     color: white;
@@ -17,28 +17,11 @@
     min-width: auto;
     min-height: auto;
 }
-/*styling for the home button*/
-.button {
-    border-width: 5px;
-    border-color: gray;
-    background-color: black;
-    border-style: solid;
-    margin: auto;
-    display: grid;
-    
-}
 
-/*styling for the font in the button*/
-.font {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-}
 /*styling for all Paragraph elements*/
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5vw;
     text-align: center;
     color: white;
 }
