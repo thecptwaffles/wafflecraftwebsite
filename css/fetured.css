@@ -1,10 +1,11 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 100px;
+    font-size: 6.25vw;
     text-align: center;
     color: white;
-    text-decoration: underline;
-    overflow-y: auto;
+    font-weight: 1;
+    
+
 }
 
 .all {
@@ -16,28 +17,10 @@ h1 {
     min-height: auto;
 }
 
-
-
-.button {
-    border-width: 5px;
-    border-color: gray;
-    background-color: black;
-    border-style: solid;
-    margin: auto;
-    display: grid;
-}
-
-.font {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-}
-
 h2 {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 3.125vw;
     font-family: 'Montserrat', sans-serif;
 }
 
