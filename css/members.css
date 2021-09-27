@@ -8,7 +8,7 @@
 }
 
 .all {
-  background-color: #585783;
+  background-image: linear-gradient(90deg, #43507f, #ff8d7d);
   /* background-image: url(./content/patern.png);*/
   max-width: auto;
   max-height: auto;
@@ -29,10 +29,23 @@
   list-style: none;
 }
 
+:root {
+  --main-clr: #42507f;
+  --secnd-clr: #8d5e96;
+  --thrd-clr: #d36e93;
+  --frth-clr: #ff8d7d;
+  --fith-clr: #ffbe68;
+  --sxth-clr: #f9f871;
+  --main-font: 'Montserrat', sans-serif;
+}
+
+
+
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: darkslategrey;
+  background-color: var(--secnd-clr);
   font-family: Arial;
 }
 
@@ -57,7 +70,7 @@
   font-size: 50px;
   border: none;
   outline: none;
-  color: white;
+  color: var(--sxth-clr);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -70,14 +83,14 @@
 /* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: forestgreen;
+  background-color: var(--thrd-clr);
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: lightgrey;
+  background-color: var(--fith-clr);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -95,7 +108,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ce964e;
 }
 
 /* Show the dropdown menu on hover */
