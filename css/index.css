@@ -5,6 +5,7 @@
   --frth-clr: #ff8d7d;
   --fith-clr: #ffbe68;
   --sxth-clr: #f9f871;
+  --navbar: #8d5e9670;
   --main-font: 'Montserrat', sans-serif;
 }
 
@@ -14,7 +15,7 @@
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: var(--secnd-clr);
+  background-color: var(--navbar);
   font-family: Arial;
 }
 

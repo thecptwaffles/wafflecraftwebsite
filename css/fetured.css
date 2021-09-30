@@ -10,7 +10,6 @@ h1 {
 
 .all {
   background-image: linear-gradient(90deg, #43507f, #ff8d7d);
-  /*background-image: url(./content/patern.png);*/
   max-width: auto;
   max-height: auto;
   min-width: auto;
@@ -29,6 +28,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.overworld {
+  background-color: #00ff004f;
+}
+
+.nether {
+  background-color: #a7060670;
 }
 
 :root {

@@ -9,7 +9,6 @@
 
 .all {
   background-image: linear-gradient(90deg, #43507f, #ff8d7d);
-  /* background-image: url(./content/patern.png);*/
   max-width: auto;
   max-height: auto;
   min-width: auto;
@@ -19,12 +18,11 @@
 #ol {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.125vw;
 }
 
 .li {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.125vw;
+  font-size: 7.125vw;
   color: white;
   list-style: none;
 }
@@ -36,6 +34,7 @@
   --frth-clr: #ff8d7d;
   --fith-clr: #ffbe68;
   --sxth-clr: #f9f871;
+  --navbar: #8d5e9670;
   --main-font: 'Montserrat', sans-serif;
 }
 
@@ -45,7 +44,7 @@
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: var(--secnd-clr);
+  background-color: var(--navbar);
   font-family: Arial;
 }
 
@@ -108,7 +107,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ce964e;
+  background-color: #ce974e;
 }
 
 /* Show the dropdown menu on hover */
