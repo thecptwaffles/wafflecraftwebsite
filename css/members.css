@@ -27,6 +27,14 @@
   list-style: none;
 }
 
+#matt {
+  color: #fa8072;
+}
+
+#jackson {
+  color: #b00b69;
+}
+
 :root {
   --main-clr: #42507f;
   --secnd-clr: #8d5e96;
