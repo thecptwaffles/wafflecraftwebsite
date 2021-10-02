@@ -38,6 +38,14 @@ img {
   background-color: #a7060670;
 }
 
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--thrd-clr);
+}
+
 :root {
   --main-clr: #42507f;
   --secnd-clr: #8d5e96;
