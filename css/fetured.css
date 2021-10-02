@@ -31,11 +31,11 @@ img {
 }
 
 .overworld {
-  background-color: #00ff004f;
+  background-color: #00ff000e;
 }
 
 .nether {
-  background-color: #a7060670;
+  background-color: #a7060617;
 }
 
 ::-webkit-scrollbar {
@@ -54,6 +54,8 @@ img {
   --fith-clr: #ffbe68;
   --sxth-clr: #f9f871;
   --main-font: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
