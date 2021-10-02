@@ -36,7 +36,7 @@
 }
 
 #waffles {
-  color: hsl(69, 69%, 69%);
+  color: #57e034;
 }
 
 #pumki {
@@ -73,6 +73,10 @@
 
 #flaming {
   color: rgb(0, 255, 229);
+}
+
+#cheeks {
+  color: #FC33FF;
 }
 
 :root {
