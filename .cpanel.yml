@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/thewaff2/public_html/web
+    - /bin/cp -R public $DEPLOYPATH
