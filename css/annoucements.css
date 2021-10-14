@@ -64,6 +64,7 @@ p {
   overflow: hidden;
   background-color: var(--navbar);
   font-family: Arial;
+  border-radius: 5rem;
 }
 
 /* Links inside the navbar */

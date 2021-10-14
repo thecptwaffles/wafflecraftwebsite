@@ -66,6 +66,7 @@ img {
   overflow: hidden;
   background-color: var(--secnd-clr);
   font-family: Arial;
+  border-radius: 5rem;
 }
 
 /* Links inside the navbar */
