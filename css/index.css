@@ -93,10 +93,10 @@
 }
 
 html {
-  background-image: url(./content/2021-07-18_08.24.49.jpg);
+  background-image: url(./content/layered-waves-haikei.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
 }
 
 h1 {
