@@ -1,11 +1,11 @@
 :root {
-  --main-clr: #42507f;
-  --secnd-clr: #8d5e96;
-  --thrd-clr: #d36e93;
-  --frth-clr: #ff8d7d;
-  --fith-clr: #ffbe68;
+  --main-clr: #b00b69;
+  --secnd-clr: #d83a5d;
+  --thrd-clr: #f36950;
+  --frth-clr: #ff9949;
+  --fith-clr: #ffc951;
   --sxth-clr: #f9f871;
-  --navbar: #8d5e9670;
+  --navbar: #b00b685e;
   --main-font: 'Montserrat', sans-serif;
 }
 
@@ -60,14 +60,14 @@
 /* Add a background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: var(--thrd-clr);
+  background-color: var(--main-clr);
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--fith-clr);
+  background-color: var(--main-clr);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -85,7 +85,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ce964e;
+  background-color: #9c095d;
 }
 
 /* Show the dropdown menu on hover */
