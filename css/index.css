@@ -94,10 +94,11 @@
 }
 
 html {
-  background-image: url(./content/layered-waves-haikei.svg);
+  background-image: url(./content/stacked-waves-haikei.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: var(--main-clr);
 }
 
 h1 {
