@@ -8,12 +8,14 @@ h1 {
 
 }
 
-.all {
+html {
   background-image: linear-gradient(90deg, var(--secnd-clr), var(--frth-clr));
   max-width: auto;
   max-height: auto;
   min-width: auto;
   min-height: auto;
+  scrollbar-width: 0.625rem;
+  scrollbar-track-color: var(--thrd-clr);
 }
 
 h2 {
@@ -31,11 +33,11 @@ img {
 }
 
 .overworld {
-  background-color: #00ff000e;
+  background-color: #00ff003d;
 }
 
 .nether {
-  background-color: #a7060617;
+  background-color: #a7060636;
 }
 
 ::-webkit-scrollbar {
@@ -64,7 +66,6 @@ img {
 ::-webkit-scrollbar-track {
   background-color: var(--thrd-clr);
 }
-
 
 /* Navbar container */
 .navbar {
@@ -109,6 +110,7 @@ img {
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: var(--main-clr);
+  border-radius: 1rem;
 }
 
 /* Dropdown content (hidden by default) */
@@ -119,6 +121,7 @@ img {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: 1rem;
 }
 
 /* Links inside the dropdown */

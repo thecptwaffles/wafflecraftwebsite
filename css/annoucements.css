@@ -108,6 +108,7 @@ p {
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: var(--main-clr);
+  border-radius: 1rem;
 }
 
 /* Dropdown content (hidden by default) */
@@ -118,6 +119,7 @@ p {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: 1rem;
 }
 
 /* Links inside the dropdown */

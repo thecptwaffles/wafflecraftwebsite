@@ -7,12 +7,14 @@
   overflow-y: auto;
 }
 
-.all {
+html {
   background-image: linear-gradient(90deg, var(--svnth-clr), var(--eith-clr));
   max-width: auto;
   max-height: auto;
   min-width: auto;
   min-height: auto;
+  scrollbar-track-color: var(--thrd-clr);
+  scrollbar-width: 0.625rem;
 }
 
 #ol {
@@ -158,6 +160,7 @@
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: var(--main-clr);
+  border-radius: 1rem;
 }
 
 /* Dropdown content (hidden by default) */
@@ -168,6 +171,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: 1rem;
 }
 
 /* Links inside the dropdown */
