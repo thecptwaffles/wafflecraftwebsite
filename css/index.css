@@ -73,6 +73,8 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 1rem;
+  font-size: 3000000px;
+  
 }
 
 /* Links inside the dropdown */
@@ -110,4 +112,11 @@ h1 {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 1;
+  text-shadow: 3px 3px black;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown-content {
+    font-size: 1rem;
+  }
 }
