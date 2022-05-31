@@ -229,7 +229,6 @@ img {
 #ol {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color: #f3685077;
 }
 
 .li {
@@ -310,4 +309,16 @@ img {
     color: white;
     text-decoration: underline;
     font-weight: 1;
+}
+
+.change-bg {
+    background-color: var(--main-clr);
+}
+
+.members-all {
+    background-color: var(--secnd-clr);
+}
+
+.scrolled {
+    background-color: var(--thrd-clr);
 }
