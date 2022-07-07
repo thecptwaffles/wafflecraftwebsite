@@ -20,6 +20,17 @@
     min-height: auto;
 }
 
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.socialTitle {
+    text-decoration: underline;
+}
+
 /*styling for all Paragraph elements*/
 p {
     font-family: 'Montserrat', sans-serif;
@@ -179,6 +190,16 @@ h1 {
     scrollbar-track-color: var(--thrd-clr);
 }
 
+body {
+    background-image: linear-gradient(90deg, var(--secnd-clr), var(--frth-clr));
+    max-width: auto;
+    max-height: auto;
+    min-width: auto;
+    min-height: auto;
+    scrollbar-width: 0.625rem;
+    scrollbar-track-color: var(--thrd-clr);
+}
+
 h2 {
     text-align: center;
     color: white;
@@ -201,7 +222,7 @@ img {
     background-color: var(--main-clr);
 }
 
-#index-title {
+.index-title {
     font-size: 12.5vw;
     color: whitesmoke;
     text-align: center;

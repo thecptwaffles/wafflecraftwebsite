@@ -1,4 +1,4 @@
-    MinecraftAPI.getServerStatus('mc.wafflecraft.xyz', {
+    MinecraftAPI.getServerStatus('play.wafflecraft.xyz', {
         port: 6570 // optional, only if you need a custom port
     }, function (err, status) {
         if (err) {
@@ -6,7 +6,7 @@
         }
 
         // you can change these to your own message!
-        document.querySelector('#serverOnline').innerHTML = status.online ? 'up' : 'down';
+        document.querySelector('#serverOnline').innerHTML = status.online ? 'Online' : 'Offline';
+        document.querySelector('#playerNow').innerHTML = status.players.now
+        document.querySelector('#playerMax').innerHTML = status.players.max
     });
-
-    // make the background of the page change color based on the status of the server
