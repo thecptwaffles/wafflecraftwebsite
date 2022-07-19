@@ -1,0 +1,341 @@
+/*styling for the title*/
+
+.title {
+    text-align: center;
+    font-size: 6.25vh;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: white;
+    overflow-y: auto;
+}
+
+/*styling for the background*/
+.all {
+    background-image: linear-gradient(90deg, var(--secnd-clr), var(--frth-clr));
+    background-size: cover;
+    background-position: center;
+    max-width: auto;
+    max-height: auto;
+    min-width: auto;
+    min-height: auto;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+/*styling for all Paragraph elements*/
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vw;
+    text-align: center;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--thrd-clr);
+}
+
+.min {
+    color: black;
+}
+
+/*styling all of the links*/
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.125rem;
+    color: white;
+    text-align: right;
+}
+
+:root {
+    --main-clr: #b00b69;
+    --secnd-clr: #d83a5d;
+    --thrd-clr: #f36950;
+    --frth-clr: #ff9949;
+    --fith-clr: #ffc951;
+    --sxth-clr: #f9f871;
+    --navbar: #b00b685e;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--thrd-clr);
+}
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: var(--navbar);
+    font-family: Arial;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 50px;
+    border: none;
+    outline: none;
+    color: var(--sxth-clr);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+    line-height: 10px;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: var(--main-clr);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--main-clr);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #9c095d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6.25vw;
+    text-align: center;
+    color: white;
+    font-weight: 1;
+
+
+}
+
+#tutorialsAll {
+    background-image: linear-gradient(90deg, var(--secnd-clr), var(--frth-clr));
+    max-width: auto;
+    max-height: auto;
+    min-width: auto;
+    min-height: auto;
+    scrollbar-width: 0.625rem;
+    scrollbar-track-color: var(--thrd-clr);
+}
+
+body {
+    background-image: linear-gradient(90deg, var(--secnd-clr), var(--frth-clr));
+    max-width: auto;
+    max-height: auto;
+    min-width: auto;
+    min-height: auto;
+    scrollbar-width: 0.625rem;
+    scrollbar-track-color: var(--thrd-clr);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.125vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#index {
+    background-image: url(./content/stacked-waves-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--main-clr);
+}
+
+.index-title {
+    font-size: 12.5vw;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1;
+    text-shadow: 3px 3px black;
+}
+
+@media screen and (max-width: 600px) {
+    .dropdown-content {
+        font-size: 1rem;
+    }
+}
+
+#title {
+    text-align: center;
+    font-size: 12.5vw;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: white;
+    overflow-y: auto;
+}
+
+#ol {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7.125vw;
+    color: white;
+    list-style: none;
+}
+
+#matt {
+    color: #fa8072;
+}
+
+#c0la {
+    color: #b00b69;
+}
+
+#waffles {
+    color: #57e034;
+}
+
+#pumki {
+    color: #ffccff;
+}
+
+#tyt {
+    color: #94011a;
+}
+
+#doug {
+    color: lightgreen;
+}
+
+#cru {
+    color: #b00b69;
+}
+
+#pants {
+    color: #1919cc;
+}
+
+#gamer {
+    color: #651869;
+}
+
+#falln {
+    color: orange;
+}
+
+#sad {
+    color: #802d8f;
+}
+
+#flaming {
+    color: rgb(0, 255, 229);
+}
+
+#cheeks {
+    color: #FC33FF;
+}
+
+#panda {
+    color: #40E0D0;
+}
+
+#bug {
+    color: #ffc0cb;
+}
+
+#delta {
+    color: #1f3600;
+}
+
+#Download {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5vw;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-weight: 1;
+}
+
+.change-bg {
+    background-color: var(--main-clr);
+}
+
+.members-all {
+    background-color: var(--secnd-clr);
+}
+
+.scrolled {
+    background-color: var(--thrd-clr);
+}
