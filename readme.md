@@ -8,4 +8,4 @@
 
 # questions
 
-### If you have any questions please contact me at thecptwaffles@zohomail.com 
+### If you have any questions please contact me at thecptwaffles@duck.com 
