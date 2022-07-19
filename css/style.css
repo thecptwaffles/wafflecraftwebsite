@@ -304,7 +304,7 @@ img {
 }
 
 #cheeks {
-    color: #FC33FF;
+    color: #b224b4;
 }
 
 #panda {
@@ -342,4 +342,8 @@ img {
 
 .scrolled {
     background-color: var(--thrd-clr);
+}
+
+.ServerInfoTitle {
+    text-decoration: underline solid 5px;
 }
